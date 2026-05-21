@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* TODO: Add actual Gmarket Sans font files to /public/fonts before deployment. */
+@font-face {
+  font-family: "Gmarket Sans";
+  src: url("/fonts/GmarketSansTTFMedium.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gmarket Sans";
+  src: url("/fonts/GmarketSansTTFBold.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body,
+#root,
+.app,
+.app-shell,
+.mobile-app,
+.screen,
+.screen *,
+button,
+input,
+select,
+textarea {
+  font-family: "Gmarket Sans", "Pretendard", "Noto Sans KR", sans-serif;
+}
+
+/* Custom styles for perfect restoration */
+body {
+  background-color: #FAF7EF; /* Cream Background */
+  color: #2A241A; /* Text Dark */
+}
+
+/* Hide scrollbar utility */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom theme variables if needed */
+:root {
+  --deep-olive: #4F6F00;
+  --olive-green: #6B7F1A;
+  --sage-green: #DDE8B2;
+  --cream-bg: #FAF7EF;
+  --card-white: #FFFFFF;
+  --warm-peach: #FFE7DD;
+  --soft-gray: #EEF0EA;
+  --text-dark: #2A241A;
+}

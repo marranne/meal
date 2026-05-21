@@ -1,0 +1,6 @@
+{
+  "name": "씨마스고등학교 급식",
+  "description": "씨마스고등학교 학생, 교사, 학부모를 위한 따뜻하고 맛있는 급식 안내 및 영양 상태를 분석하는 반응형 올리브그린 톤의 급식 웹 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
